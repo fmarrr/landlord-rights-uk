@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/fbe3c34d4a7309be8e43eaa664dc1e58/script.js"></script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6325652833259788"
      crossorigin="anonymous"></script>
   <!-- Google tag (gtag.js) -->
@@ -448,23 +449,6 @@
     .footer-links a:hover { color: #fff; }
     .footer-copy { width: 100%; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1.25rem; margin-top: 0.5rem; }
     .footer-disc { margin-top: 0.5rem; font-size: 0.75rem; line-height: 1.5; }
-
-    /* ── COOKIE ── */
-    #cookie-banner {
-      position: fixed;
-      bottom: 0; left: 0; right: 0;
-      background: var(--navy);
-      color: rgba(255,255,255,0.85);
-      font-size: 0.82rem;
-      padding: 0.9rem 1.5rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 1rem;
-      flex-wrap: wrap;
-      z-index: 999;
-    }
-    #cookie-banner a { color: rgba(255,255,255,0.7); }
     #cookie-ok {
       background: var(--red);
       color: #fff;
@@ -839,23 +823,8 @@
   </div>
 </footer>
 
-<!-- COOKIE BANNER -->
-<div id="cookie-banner" style="display:none;">
-  <span>We use cookies to save your checklist progress. <a href="/privacy">Learn more</a>.</span>
-  <button id="cookie-ok">Got it</button>
-</div>
-
 <script>
-  // Cookie banner
   (function() {
-    if (!localStorage.getItem('cookie-ok')) {
-      document.getElementById('cookie-banner').style.display = 'flex';
-    }
-    document.getElementById('cookie-ok').addEventListener('click', function() {
-      localStorage.setItem('cookie-ok', '1');
-      document.getElementById('cookie-banner').style.display = 'none';
-    });
-  })();
 
   // Checklist persistence
   (function() {
