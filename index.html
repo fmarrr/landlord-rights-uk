@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landlords' Rights UK — Renters' Rights Act 2025 Plain-English Guide</title>
+  <meta name="description" content="Everything UK landlords need to know about the Renters' Rights Act 2025. Free plain-English guide: Section 21 abolition, rent increases, new eviction rules, compliance checklist and key dates.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://landlordrights.co.uk/">
+  <meta property="og:title" content="Landlords' Rights UK — Renters' Rights Act 2025 Guide">
+  <meta property="og:description" content="Free plain-English guide to the Renters' Rights Act 2025. Section 21, rent rules, compliance checklist and key dates — all in one place.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://landlordrights.co.uk/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Landlords' Rights UK — Renters' Rights Act 2025">
+  <meta name="twitter:description" content="Free plain-English guide to the Renters' Rights Act 2025 for UK landlords.">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Landlords' Rights UK",
+    "url": "https://landlordrights.co.uk",
+    "description": "Free plain-English guide to the Renters' Rights Act 2025 for UK landlords. Section 21, rent rules, compliance checklist and key dates.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Landlords' Rights UK",
+      "url": "https://landlordrights.co.uk"
+    }
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy:   #0f2137;
+      --red:    #c8401a;
+      --dark:   #1a1a1a;
+      --muted:  #555;
+      --light:  #f7f8fa;
+      --border: #e4e4e4;
+      --white:  #ffffff;
+      --max:    960px;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      color: var(--dark);
+      background: var(--white);
+    }
+
+    a { color: var(--red); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ── NAV ── */
+    nav {
+      background: var(--navy);
+      padding: 0 1.5rem;
+    }
+    .nav-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 58px;
+      gap: 1rem;
+    }
+    .logo {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--white);
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .logo span { color: var(--red); }
+    .nav-links {
+      display: flex;
+      gap: 1.5rem;
+      list-style: none;
+    }
+    .nav-links a {
+      color: rgba(255,255,255,0.8);
+      font-size: 0.875rem;
+      font-weight: 500;
+      transition: color .15s;
+    }
+    .nav-links a:hover { color: #fff; text-decoration: none; }
+
+    /* ── HERO ── */
+    .hero {
+      background: var(--navy);
+      color: var(--white);
+      padding: 4rem 1.5rem 3.5rem;
+      border-bottom: 3px solid var(--red);
+    }
+    .hero-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+    }
+    .hero-tag {
+      display: inline-block;
+      background: var(--red);
+      color: #fff;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      border-radius: 3px;
+      margin-bottom: 1.1rem;
+    }
+    .hero h1 {
+      font-size: clamp(1.75rem, 4vw, 2.75rem);
+      font-weight: 800;
+      line-height: 1.2;
+      max-width: 700px;
+      margin-bottom: 1rem;
+    }
+    .hero h1 span { color: var(--red); }
+    .hero p {
+      font-size: 1.1rem;
+      color: rgba(255,255,255,0.8);
+      max-width: 600px;
+      margin-bottom: 2rem;
+    }
+    .hero-ctas { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .btn {
+      display: inline-block;
+      padding: 0.65rem 1.4rem;
+      border-radius: 5px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      transition: opacity .15s;
+    }
+    .btn:hover { opacity: 0.88; text-decoration: none; }
+    .btn-primary { background: var(--red); color: #fff; }
+    .btn-outline { border: 1.5px solid rgba(255,255,255,0.45); color: #fff; }
+
+    /* ── SECTION WRAPPER ── */
+    .section { padding: 3.5rem 1.5rem; }
+    .section-inner { max-width: var(--max); margin: 0 auto; }
+    .section.alt { background: var(--light); }
+
+    .section-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 0.4rem;
+    }
+    .section-title {
+      font-size: clamp(1.35rem, 3vw, 1.9rem);
+      font-weight: 800;
+      line-height: 1.25;
+      margin-bottom: 0.6rem;
+    }
+    .section-sub {
+      color: var(--muted);
+      font-size: 1rem;
+      max-width: 620px;
+      margin-bottom: 2.5rem;
+    }
+
+    /* ── CHANGE CARDS ── */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.25rem;
+    }
+    .card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.4rem 1.4rem 1.5rem;
+    }
+    .section.alt .card { background: var(--white); }
+    .card-icon {
+      width: 38px;
+      height: 38px;
+      background: #fef1ec;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      margin-bottom: 0.9rem;
+    }
+    .card h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 0.4rem;
+    }
+    .card p { font-size: 0.9rem; color: var(--muted); }
+    .card .tag {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 3px;
+      margin-top: 0.75rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .tag-live { background: #fde8e8; color: #c00; }
+    .tag-soon { background: #fff3cd; color: #856404; }
+
+    /* ── ALERT BAR ── */
+    .alert-bar {
+      background: #fef1ec;
+      border-left: 4px solid var(--red);
+      padding: 1rem 1.5rem;
+      border-radius: 0 6px 6px 0;
+      margin-bottom: 2.5rem;
+      font-size: 0.92rem;
+    }
+    .alert-bar strong { color: var(--red); }
+
+    /* ── TIMELINE ── */
+    .timeline { list-style: none; position: relative; padding-left: 1.8rem; }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 6px;
+      top: 6px;
+      bottom: 6px;
+      width: 2px;
+      background: var(--border);
+    }
+    .timeline li {
+      position: relative;
+      padding-bottom: 2rem;
+    }
+    .timeline li:last-child { padding-bottom: 0; }
+    .timeline li::before {
+      content: '';
+      position: absolute;
+      left: -1.8rem;
+      top: 6px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--border);
+      border: 2px solid var(--white);
+    }
+    .timeline li.done::before { background: var(--red); }
+    .timeline li.next::before { background: var(--navy); }
+    .tl-date {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--red);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.2rem;
+    }
+    .tl-title { font-size: 1rem; font-weight: 700; margin-bottom: 0.25rem; }
+    .tl-desc { font-size: 0.9rem; color: var(--muted); }
+
+    /* ── CHECKLIST ── */
+    .checklist-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+    @media (max-width: 620px) { .checklist-grid { grid-template-columns: 1fr; } }
+    .checklist-group h4 {
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--navy);
+      border-bottom: 2px solid var(--navy);
+      padding-bottom: 0.4rem;
+      margin-bottom: 0.9rem;
+    }
+    .checklist-group ul { list-style: none; }
+    .checklist-group li {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.6rem;
+      font-size: 0.9rem;
+      color: var(--dark);
+      margin-bottom: 0.7rem;
+      cursor: pointer;
+    }
+    .checklist-group li .box {
+      flex-shrink: 0;
+      width: 18px;
+      height: 18px;
+      border: 2px solid var(--border);
+      border-radius: 4px;
+      margin-top: 1px;
+      transition: all .15s;
+      background: var(--white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .checklist-group li.checked .box {
+      background: var(--red);
+      border-color: var(--red);
+    }
+    .checklist-group li.checked .box::after { content: '✓'; color: #fff; font-size: 0.65rem; font-weight: 700; }
+    .checklist-group li.checked span { color: var(--muted); text-decoration: line-through; }
+
+    /* ── AFFILIATE BOX ── */
+    .affiliate-box {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-top: 4px solid var(--red);
+      border-radius: 8px;
+      padding: 1.8rem;
+      margin-bottom: 1.5rem;
+    }
+    .affiliate-box h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.35rem; }
+    .affiliate-box p { font-size: 0.9rem; color: var(--muted); margin-bottom: 1.1rem; }
+    .affiliate-links { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .aff-link {
+      display: inline-block;
+      padding: 0.45rem 1rem;
+      border: 1.5px solid var(--border);
+      border-radius: 5px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--dark);
+      transition: border-color .15s, color .15s;
+    }
+    .aff-link:hover { border-color: var(--red); color: var(--red); text-decoration: none; }
+    .aff-disclaimer {
+      font-size: 0.72rem;
+      color: #999;
+      margin-top: 1rem;
+    }
+
+    .affiliate-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.25rem;
+    }
+    @media (max-width: 620px) { .affiliate-grid { grid-template-columns: 1fr; } }
+
+    /* ── FAQ ── */
+    .faq-item {
+      border-bottom: 1px solid var(--border);
+    }
+    .faq-q {
+      width: 100%;
+      background: none;
+      border: none;
+      text-align: left;
+      padding: 1.1rem 0;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--dark);
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+    .faq-q .arrow {
+      flex-shrink: 0;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: var(--light);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.8rem;
+      color: var(--muted);
+      transition: transform .2s;
+    }
+    .faq-item.open .faq-q .arrow { transform: rotate(180deg); }
+    .faq-a {
+      font-size: 0.92rem;
+      color: var(--muted);
+      line-height: 1.7;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height .3s ease, padding .2s;
+    }
+    .faq-item.open .faq-a {
+      max-height: 400px;
+      padding-bottom: 1.2rem;
+    }
+
+    /* ── STATS BAR ── */
+    .stats-bar {
+      display: flex;
+      gap: 0;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 2.5rem;
+    }
+    .stat {
+      flex: 1;
+      padding: 1.25rem;
+      text-align: center;
+      border-right: 1px solid var(--border);
+    }
+    .stat:last-child { border-right: none; }
+    .stat-num { font-size: 1.6rem; font-weight: 800; color: var(--navy); }
+    .stat-lbl { font-size: 0.78rem; color: var(--muted); margin-top: 0.15rem; }
+    @media (max-width: 560px) {
+      .stats-bar { flex-direction: column; }
+      .stat { border-right: none; border-bottom: 1px solid var(--border); }
+      .stat:last-child { border-bottom: none; }
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--navy);
+      color: rgba(255,255,255,0.55);
+      padding: 2.5rem 1.5rem;
+      font-size: 0.82rem;
+    }
+    .footer-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+    .footer-logo { color: #fff; font-weight: 700; font-size: 1rem; }
+    .footer-logo span { color: var(--red); }
+    .footer-links { display: flex; gap: 1.25rem; flex-wrap: wrap; }
+    .footer-links a { color: rgba(255,255,255,0.55); }
+    .footer-links a:hover { color: #fff; }
+    .footer-copy { width: 100%; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1.25rem; margin-top: 0.5rem; }
+    .footer-disc { margin-top: 0.5rem; font-size: 0.75rem; line-height: 1.5; }
+
+    /* ── COOKIE ── */
+    #cookie-banner {
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      background: var(--navy);
+      color: rgba(255,255,255,0.85);
+      font-size: 0.82rem;
+      padding: 0.9rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+      z-index: 999;
+    }
+    #cookie-banner a { color: rgba(255,255,255,0.7); }
+    #cookie-ok {
+      background: var(--red);
+      color: #fff;
+      border: none;
+      padding: 0.4rem 1rem;
+      border-radius: 4px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    @media (max-width: 680px) {
+      .nav-links { display: none; }
+      .checklist-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <div class="logo">Landlords' <span>Rights UK</span></div>
+    <ul class="nav-links">
+      <li><a href="#changes">What Changed</a></li>
+<li><a href="#insurance">Protect Income</a></li>
+      <li><a href="#timeline">Key Dates</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#about">About Us</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-tag">Renters' Rights Act 2025</div>
+    <h1>Know the law. Protect your <span>rental income.</span></h1>
+    <p>The Renters' Rights Act is now law. Plain-English breakdown of every change, what it means for you, and exactly what you need to do — all in one place, completely free.</p>
+    <div class="hero-ctas">
+      <a href="#changes" class="btn btn-primary">See What Changed</a>
+<a href="#insurance" class="btn btn-outline">Protect Your Income</a>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="section">
+  <div class="section-inner">
+    <div class="stats-bar">
+      <div class="stat">
+        <div class="stat-num">2.65m</div>
+        <div class="stat-lbl">Private landlords in England</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">8</div>
+        <div class="stat-lbl">Major changes in the Act</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">1 May 2026</div>
+        <div class="stat-lbl">Phase 1 came into force</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">£40k</div>
+        <div class="stat-lbl">Max fine for non-compliance</div>
+      </div>
+    </div>
+
+    <div class="alert-bar">
+      <strong>Already in force (1 May 2026):</strong> Section 21 'no fault' evictions are abolished. All new tenancies are now periodic. New Section 8 grounds apply. If you haven't reviewed your processes yet, start with the <a href="#checklist">compliance checklist</a>.
+    </div>
+  </div>
+</section>
+
+<!-- KEY CHANGES -->
+<section class="section alt" id="changes">
+  <div class="section-inner">
+    <div class="section-label">The Act Explained</div>
+    <h2 class="section-title">8 changes every landlord must know</h2>
+    <p class="section-sub">The Renters' Rights Act 2025 is the biggest shake-up of private renting in decades. Here's what's changed and what it means for you.</p>
+
+    <div class="cards">
+
+      <div class="card">
+        <div class="card-icon">🚫</div>
+        <h3>Section 21 Abolished</h3>
+        <p>You can no longer evict a tenant without a valid legal reason. All evictions must now go through Section 8 using one of the specified grounds.</p>
+        <span class="tag tag-live">In Force — 1 May 2026</span>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">🔄</div>
+        <h3>All Tenancies Now Periodic</h3>
+        <p>Fixed-term ASTs are abolished. All tenancies — new and existing — are rolling periodic tenancies. Tenants can leave with 2 months' notice.</p>
+        <span class="tag tag-live">In Force — 1 May 2026</span>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">📈</div>
+        <h3>Rent Increase Rules Tightened</h3>
+        <p>You can only raise rent once per year using the official Section 13 notice. Tenants can challenge any increase at a First-tier Tribunal. No above-market increases.</p>
+        <span class="tag tag-live">In Force — 1 May 2026</span>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">🐾</div>
+        <h3>Pets: Default Yes</h3>
+        <p>Landlords must now consider all pet requests. Refusal requires a written reason. You can require the tenant to take out pet damage insurance.</p>
+        <span class="tag tag-live">In Force — 1 May 2026</span>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">🏠</div>
+        <h3>Decent Homes Standard</h3>
+        <p>Private rentals must meet the Decent Homes Standard for the first time. Local councils gain new powers to enforce minimum property conditions.</p>
+        <span class="tag tag-soon">Coming — Date TBC</span>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">⚖️</div>
+        <h3>Mandatory Ombudsman</h3>
+        <p>Every private landlord in England must join the new Private Rented Sector Ombudsman. Tenants can make free complaints; non-membership is a criminal offence.</p>
+        <span class="tag tag-soon">Coming — Date TBC</span>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">📋</div>
+        <h3>Landlord Register</h3>
+        <p>A new national Private Rented Sector Database will require all landlords to register their properties. Unregistered landlords cannot legally rent.</p>
+        <span class="tag tag-soon">Coming — Date TBC</span>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">🚨</div>
+        <h3>Awaab's Law Extended</h3>
+        <p>Time limits for landlords to respond to and fix damp, mould and other serious health hazards now apply to the private sector, not just social housing.</p>
+        <span class="tag tag-soon">Coming — Date TBC</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 8 GROUNDS -->
+<section class="section" id="section8">
+  <div class="section-inner">
+    <div class="section-label">Evictions</div>
+    <h2 class="section-title">New Section 8 grounds — when you <em>can</em> evict</h2>
+    <p class="section-sub">Section 21 is gone but Section 8 has been strengthened with new and revised grounds. Know your rights.</p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">💸</div>
+        <h3>Rent Arrears (Ground 8)</h3>
+        <p>Still a mandatory ground. Tenant must be at least 3 months in arrears both when you serve notice and at the hearing.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🏡</div>
+        <h3>Selling the Property (Ground 1A)</h3>
+        <p>New mandatory ground: you intend to sell. Minimum 4 months' notice. 12-month no-retenanting restriction after possession.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">👨‍👩‍👧</div>
+        <h3>Moving In (Ground 1)</h3>
+        <p>You or a close family member needs to move in. Minimum 4 months' notice. 12-month restriction on re-letting applies.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔨</div>
+        <h3>Major Works (Ground 6)</h3>
+        <p>You need vacant possession for significant renovation or redevelopment that cannot be done with the tenant in situ.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">⚠️</div>
+        <h3>Anti-Social Behaviour (Ground 14)</h3>
+        <p>Discretionary ground. Courts have flexibility. Behaviour must be serious enough to justify eviction.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📄</div>
+        <h3>Breach of Tenancy (Ground 12)</h3>
+        <p>Discretionary. Applies when the tenant has broken a material term of the tenancy agreement (other than rent).</p>
+      </div>
+    </div>
+
+    <p style="margin-top:1.5rem; font-size:0.88rem; color:var(--muted);">
+      Notice periods for most grounds are 4 months. Mandatory grounds = court must grant possession. Discretionary = court decides. Always seek legal advice before serving a notice.
+    </p>
+  </div>
+</section>
+
+
+<!-- INSURANCE AFFILIATES -->
+<section class="section" id="insurance">
+  <div class="section-inner">
+    <div class="section-label">Protect Your Income</div>
+    <h2 class="section-title">Insurance every landlord should review now</h2>
+    <p class="section-sub">Without Section 21, recovering possession through the courts takes longer. Protecting your rental income has never been more important.</p>
+
+    <div class="affiliate-grid">
+      <div class="affiliate-box">
+        <h3>Rent Guarantee Insurance</h3>
+        <p>Covers your rental income if a tenant stops paying. With eviction now taking longer through Section 8, this is the essential safety net. Policies typically cover 6–12 months of rent plus legal costs.</p>
+        <div class="affiliate-links">
+          <a href="https://www.homelet.co.uk/landlord-insurance/rent-guarantee-insurance" class="aff-link" target="_blank" rel="noopener sponsored">HomeLet</a>
+          <a href="https://www.totalllandlordinsurance.co.uk/landlord-insurance/rent-guarantee" class="aff-link" target="_blank" rel="noopener sponsored">Total Landlord</a>
+          <a href="https://www.directline.com/landlord-insurance" class="aff-link" target="_blank" rel="noopener sponsored">Direct Line</a>
+          <a href="https://www.moneysupermarket.com/landlord-insurance/" class="aff-link" target="_blank" rel="noopener sponsored">Compare on MoneySupermarket</a>
+        </div>
+      </div>
+
+      <div class="affiliate-box">
+        <h3>Landlord Buildings &amp; Contents</h3>
+        <p>Standard home insurance won't cover rented properties. Make sure your policy is landlord-specific, includes liability cover, and covers loss of rent following an insured event.</p>
+        <div class="affiliate-links">
+          <a href="https://www.moneysupermarket.com/landlord-insurance/" class="aff-link" target="_blank" rel="noopener sponsored">MoneySupermarket</a>
+          <a href="https://www.comparethemarket.com/landlord-insurance/" class="aff-link" target="_blank" rel="noopener sponsored">Compare the Market</a>
+          <a href="https://www.gocompare.com/landlord-insurance/" class="aff-link" target="_blank" rel="noopener sponsored">GoCompare</a>
+        </div>
+      </div>
+
+      <div class="affiliate-box">
+        <h3>Legal Expenses Insurance</h3>
+        <p>Section 8 court proceedings can cost £2,000–£5,000+. Legal expenses cover pays solicitor fees and court costs if you need to pursue possession. Often bundled with rent guarantee.</p>
+        <div class="affiliate-links">
+          <a href="https://www.homelet.co.uk/landlord-insurance/legal-expenses" class="aff-link" target="_blank" rel="noopener sponsored">HomeLet Legal</a>
+          <a href="https://www.nrla.org.uk/landlord-insurance" class="aff-link" target="_blank" rel="noopener sponsored">NRLA Insurance</a>
+          <a href="https://www.comparethemarket.com/landlord-insurance/" class="aff-link" target="_blank" rel="noopener sponsored">Compare the Market</a>
+        </div>
+      </div>
+
+      <div class="affiliate-box">
+        <h3>Landlord Software</h3>
+        <p>Managing periodic tenancies, annual rent reviews and compliance deadlines is easier with dedicated software. Track Section 13 notices, pet requests and maintenance obligations in one place.</p>
+        <div class="affiliate-links">
+          <a href="https://www.landlordstudio.com" class="aff-link" target="_blank" rel="noopener sponsored">Landlord Studio</a>
+          <a href="https://www.arthur.online" class="aff-link" target="_blank" rel="noopener sponsored">Arthur Online</a>
+          <a href="https://www.openrent.co.uk" class="aff-link" target="_blank" rel="noopener sponsored">OpenRent</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TIMELINE -->
+<section class="section alt" id="timeline">
+  <div class="section-inner">
+    <div class="section-label">Key Dates</div>
+    <h2 class="section-title">The Renters' Rights Act timeline</h2>
+    <p class="section-sub">Know what applies now and what's still coming. Missing a deadline risks fines of up to £40,000.</p>
+
+    <ul class="timeline">
+      <li class="done">
+        <div class="tl-date">May 2025</div>
+        <div class="tl-title">Renters' Rights Act receives Royal Assent</div>
+        <div class="tl-desc">The Act passed into law. Implementation in phases from this point.</div>
+      </li>
+      <li class="done">
+        <div class="tl-date">1 May 2026 — Phase 1 (Now Live)</div>
+        <div class="tl-title">Section 21 abolished. Periodic tenancies begin. Rent rules tighten.</div>
+        <div class="tl-desc">All new tenancies must be periodic ASTs. Section 21 notices no longer valid. New Section 8 grounds active. Rent increase restricted to once per year via Section 13 notice. Landlords must issue mandatory information sheet to all existing tenants by 31 May 2026.</div>
+      </li>
+      <li class="done">
+        <div class="tl-date">31 May 2026 — PASSED</div>
+        <div class="tl-title">Information sheets must be given to all existing tenants</div>
+        <div class="tl-desc">Landlords were required to provide the government's mandatory information sheet to tenants of existing tenancies. Failure risks a fine.</div>
+      </li>
+      <li class="next">
+        <div class="tl-date">Late 2026 — Phase 2 (Coming)</div>
+        <div class="tl-title">Existing tenancies convert to periodic</div>
+        <div class="tl-desc">All existing fixed-term tenancies will convert to periodic rolling tenancies. Section 21 abolition will extend to all existing tenancies.</div>
+      </li>
+      <li>
+        <div class="tl-date">TBC — Phase 3</div>
+        <div class="tl-title">Private Rented Sector Ombudsman launches</div>
+        <div class="tl-desc">Mandatory membership for all landlords. Tenants can raise complaints free of charge. Binding decisions. Failure to join is a criminal offence.</div>
+      </li>
+      <li>
+        <div class="tl-date">TBC — Phase 3</div>
+        <div class="tl-title">Landlord Register &amp; Decent Homes Standard</div>
+        <div class="tl-desc">All landlords must register properties on the national PRS database. Decent Homes Standard compliance enforced by local authorities with new civil penalty powers.</div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="section-inner">
+    <div class="section-label">FAQ</div>
+    <h2 class="section-title">Common questions</h2>
+    <p class="section-sub" style="margin-bottom:2rem;">Straight answers to what landlords are actually asking.</p>
+
+    <div class="faq-item">
+      <button class="faq-q">Can I still use Section 21 for tenancies that started before May 2026?<div class="arrow">▾</div></button>
+      <div class="faq-a">No. From 1 May 2026, Section 21 is abolished for all tenancies — new and existing. You cannot serve a Section 21 notice from this date, regardless of when the tenancy started. You must use Section 8 with valid grounds.</div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q">My tenant is on a fixed-term that runs until 2027. What happens?<div class="arrow">▾</div></button>
+      <div class="faq-a">Under Phase 2 (expected late 2026), all existing fixed-term tenancies will automatically convert to periodic rolling tenancies. The tenancy doesn't end — it continues but without a fixed end date. Your tenant can give 2 months' notice to leave at any point. You can only end it using Section 8 grounds.</div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q">How do I increase the rent now?<div class="arrow">▾</div></button>
+      <div class="faq-a">You must use a formal Section 13 notice. You can only propose one rent increase per year. The proposed rent must be a genuine market rent — you cannot set it above market rates. Tenants have the right to challenge the increase at the First-tier Tribunal (Property Chamber). The tribunal can confirm, reduce, or in some cases increase the rent.</div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q">A tenant has stopped paying rent. What do I do?<div class="arrow">▾</div></button>
+      <div class="faq-a">With Section 21 gone, you need to use Section 8 Ground 8 (mandatory — 3+ months arrears at notice and at hearing) or Ground 10/11 (discretionary). Serve a formal Section 8 notice. If the tenant doesn't leave, apply to court. This process typically takes 6–12 months. Rent Guarantee Insurance is now essential for this scenario — see our <a href="#insurance">insurance section</a>.</div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q">Can I refuse a tenant's request for a pet?<div class="arrow">▾</div></button>
+      <div class="faq-a">You can still refuse, but not unreasonably. You must respond within 28 days with a written reason. Blanket 'no pets' clauses in tenancy agreements are no longer enforceable. Acceptable reasons include: head leaseholder prohibitions, building type, allergy of other occupants. You can require the tenant to take out a pet damage insurance policy.</div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q">I want to sell my property. Can I get the tenant out?<div class="arrow">▾</div></button>
+      <div class="faq-a">Yes — Ground 1A (new) allows you to evict for sale of the property. You must give at least 4 months' notice. After gaining possession, you cannot re-let the property for 12 months. The court will grant possession if the ground is proven (mandatory).</div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q">When do I need to join the Landlord Register and Ombudsman?<div class="arrow">▾</div></button>
+      <div class="faq-a">The exact launch dates for both the national PRS Database (landlord register) and the Private Rented Sector Ombudsman have not been confirmed at the time of writing. Both are expected in a Phase 3 rollout, likely 2026–2027. We'll update this page as dates are confirmed. Prepare by gathering your property details and checking your compliance position now.</div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q">What are the fines for non-compliance?<div class="arrow">▾</div></button>
+      <div class="faq-a">Civil penalties of up to £7,000 for most initial offences. Repeat or serious breaches can attract fines of up to £40,000. Local authorities have new enforcement powers and a duty to investigate complaints. Failure to join the Ombudsman is a criminal offence carrying an unlimited fine. Not registering on the landlord database can prevent you from legally operating.</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT / POSITIONING -->
+<section class="section alt" id="about">
+  <div class="section-inner" style="max-width:680px;">
+    <div class="section-label">About</div>
+    <h2 class="section-title">Why we built this</h2>
+    <p style="font-size:0.95rem; color:var(--muted); line-height:1.75; margin-bottom:1rem;">
+      The Renters' Rights Act is the biggest change to private renting since the Housing Act 1988. But the guidance is scattered across gov.uk, trade associations behind paywalls, and law firm press releases.
+    </p>
+    <p style="font-size:0.95rem; color:var(--muted); line-height:1.75; margin-bottom:1rem;">
+      Landlords' Rights UK exists to give every landlord — whether you have one property or fifty — a free, plain-English, up-to-date reference for navigating the new rules. No membership fee. No paywall. No spin.
+    </p>
+    <p style="font-size:0.95rem; color:var(--muted); line-height:1.75;">
+      This site is monetised through advertising and affiliate links to insurance and services we think are relevant and useful. We always disclose affiliate relationships. Nothing on this site is legal advice — for your specific situation, consult a qualified solicitor.
+    </p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo">Landlords' <span>Rights UK</span></div>
+      <div style="margin-top:0.4rem;">Free guide to the Renters' Rights Act 2025</div>
+    </div>
+    <div class="footer-links">
+      <a href="#changes">What Changed</a>
+      <a href="#timeline">Key Dates</a>
+<a href="#insurance">Insurance</a>
+      <a href="#faq">FAQ</a>
+      <a href="/privacy">Privacy Policy</a>
+      <a href="/terms">Terms of Use</a>
+    </div>
+    <div class="footer-copy">
+      <div>© 2026 Landlords' Rights UK. Information on this site is for general guidance only and does not constitute legal advice.</div>
+      <div class="footer-disc">Some links on this site are affiliate links — we may earn a commission if you click and purchase. This does not affect our editorial content. Landlords' Rights UK is an independent site and is not affiliated with any government body, trade association, or political party.</div>
+    </div>
+  </div>
+</footer>
+
+<!-- COOKIE BANNER -->
+<div id="cookie-banner" style="display:none;">
+  <span>We use cookies to save your checklist progress. <a href="/privacy">Learn more</a>.</span>
+  <button id="cookie-ok">Got it</button>
+</div>
+
+<script>
+  // Cookie banner
+  (function() {
+    if (!localStorage.getItem('cookie-ok')) {
+      document.getElementById('cookie-banner').style.display = 'flex';
+    }
+    document.getElementById('cookie-ok').addEventListener('click', function() {
+      localStorage.setItem('cookie-ok', '1');
+      document.getElementById('cookie-banner').style.display = 'none';
+    });
+  })();
+
+  // Checklist persistence
+  (function() {
+    var allItems = document.querySelectorAll('[data-id]');
+    allItems.forEach(function(li) {
+      var id = li.getAttribute('data-id');
+      if (localStorage.getItem('chk-' + id)) li.classList.add('checked');
+      li.addEventListener('click', function() {
+        li.classList.toggle('checked');
+        if (li.classList.contains('checked')) {
+          localStorage.setItem('chk-' + id, '1');
+        } else {
+          localStorage.removeItem('chk-' + id);
+        }
+      });
+    });
+  })();
+
+  // FAQ accordion
+  document.querySelectorAll('.faq-q').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var item = btn.closest('.faq-item');
+      var wasOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(function(i) { i.classList.remove('open'); });
+      if (!wasOpen) item.classList.add('open');
+    });
+  });
+
+  // Smooth scroll
+  document.querySelectorAll('a[href^="#"]').forEach(function(a) {
+    a.addEventListener('click', function(e) {
+      var target = document.querySelector(a.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
